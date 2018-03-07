@@ -10,9 +10,9 @@ readme = "README.md"
 include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 
 [dependencies]
-glib-sys = "*"
-gobject-sys = "*"
-gio-sys = "*"
+glib-sys = ">= 0.5"
+gobject-sys = ">= 0.5"
+gio-sys = ">= 0.5"
 
 [build-dependencies]
-pkg-config = "*"
+pkg-config = ">= 0.3"
