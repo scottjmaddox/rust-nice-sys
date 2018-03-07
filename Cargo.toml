@@ -1,0 +1,12 @@
+[package]
+name = "nice-sys"
+version = "0.1.0"
+authors = ["Scott J Maddox <scottjmaddox@gmail.com>"]
+
+[dependencies]
+glib-sys = "*"
+gobject-sys = "*"
+gio-sys = "*"
+
+[build-dependencies]
+pkg-config = "*"
