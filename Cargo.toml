@@ -1,6 +1,6 @@
 [package]
 name = "nice-sys"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Scott J Maddox <scottjmaddox@gmail.com>"]
 description = "FFI bindings to libnice"
 license = "MIT/Apache-2.0"
