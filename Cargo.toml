@@ -2,6 +2,12 @@
 name = "nice-sys"
 version = "0.1.0"
 authors = ["Scott J Maddox <scottjmaddox@gmail.com>"]
+description = "FFI bindings to libnice"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/scottjmaddox/rust-nice-sys"
+documentation = "https://docs.rs/nice-sys"
+readme = "README.md"
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE-APACHE", "LICENSE-MIT"]
 
 [dependencies]
 glib-sys = "*"
